@@ -1,0 +1,39 @@
+body {
+  background-color: black;
+}
+.container {
+  height: 700px;
+  width: 1350px;
+
+  margin-top: -30px;
+  margin-left: -10px;
+  background-image: url("p2.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+}
+
+.image-container {
+  display: flex;
+  margin-left: 20px;
+}
+.exercise-container {
+  display: flex;
+  margin-left: 20px;
+}
+.fast-food {
+  display: flex;
+  margin-left: 20px;
+}
+.smoking {
+  display: flex;
+  margin-left: 20px;
+}
+.stress {
+  display: flex;
+  margin-left: 20px;
+}
+.heading:hover {
+  background-color: blue;
+  color: red;
+}

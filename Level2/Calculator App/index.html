@@ -1,0 +1,274 @@
+<!----Calculator App-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Calculator</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="s1.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="display">
+        <input type="text" id="display" name="value" mutiple size="100" />
+        <input
+          type="button"
+          id="b1"
+          value="1"
+          onclick="display.value+=1"
+          style="
+            color: black;
+            background-color: white;
+            border-radius: 100%;
+            margin-left: 10px;
+            margin-top: 50px;
+            padding: 15px;
+            border: none;
+            font-size: 30px;
+          "
+        />
+        <input
+          type="button"
+          id="b2"
+          value="2"
+          onclick="display.value+=2"
+          style="
+            color: black;
+            background-color: white;
+            border-radius: 100%;
+            margin-left: 20px;
+            margin-top: 50px;
+            padding: 15px;
+            border: none;
+            font-size: 30px;
+          "
+        />
+        <input
+          type="button"
+          id="b3"
+          value="3"
+          onclick="display.value+=3"
+          style="
+            color: black;
+            background-color: white;
+            border-radius: 100%;
+            margin-left: 20px;
+            margin-top: 50px;
+            padding: 15px;
+            border: none;
+            font-size: 30px;
+          "
+        />
+        <input
+          type="button"
+          id="add"
+          onclick="display.value+='+'"
+          value="+"
+          style="
+            color: black;
+            background-color: white;
+
+            margin-left: 40px;
+            height: 50px;
+            width: 100px;
+
+            border: none;
+            font-size: 30px;
+            background-color: #00bfff;
+          "
+        />
+        <br />
+        <input
+          type="button"
+          id="b4"
+          value="4"
+          onclick="display.value+=4"
+          style="
+            color: black;
+            background-color: white;
+            border-radius: 100%;
+            margin-left: 10px;
+            margin-top: 25px;
+            padding: 15px;
+            border: none;
+            font-size: 30px;
+          "
+        />
+        <input
+          type="button"
+          id="b5"
+          value="5"
+          onclick="display.value+=5"
+          style="
+            color: black;
+            background-color: white;
+            border-radius: 100%;
+            margin-left: 20px;
+            margin-top: 25px;
+            padding: 15px;
+            border: none;
+            font-size: 30px;
+          "
+        />
+        <input
+          type="button"
+          id="b6"
+          value="6"
+          onclick="display.value+=6"
+          style="
+            color: black;
+            background-color: white;
+            border-radius: 100%;
+            margin-left: 20px;
+            margin-top: 25px;
+            padding: 15px;
+            border: none;
+            font-size: 30px;
+          "
+        />
+        <input
+          type="button"
+          id="sub"
+          onclick="display.value+='-'"
+          value="-"
+          style="
+            color: black;
+            background-color: white;
+
+            margin-left: 40px;
+            height: 50px;
+            width: 100px;
+
+            border: none;
+            font-size: 30px;
+            background-color: #00bfff;
+          "
+        />
+        <br />
+        <input
+          type="button"
+          id="b7"
+          value="7"
+          onclick="display.value+=7"
+          style="
+            color: black;
+            background-color: white;
+            border-radius: 100%;
+            margin-left: 10px;
+            margin-top: 30px;
+            padding: 15px;
+            border: none;
+            font-size: 30px;
+          "
+        />
+        <input
+          type="button"
+          id="b8"
+          value="8"
+          onclick="display.value+=8"
+          style="
+            color: black;
+            background-color: white;
+            border-radius: 100%;
+            margin-left: 20px;
+            margin-top: 30px;
+            padding: 15px;
+            border: none;
+            font-size: 30px;
+          "
+        />
+        <input
+          type="button"
+          id="b9"
+          onclick="display.value+=9"
+          value="9"
+          style="
+            color: black;
+            background-color: white;
+            border-radius: 100%;
+            margin-left: 20px;
+            margin-top: 30px;
+            padding: 15px;
+            border: none;
+            font-size: 30px;
+          "
+        />
+        <input
+          type="button"
+          id="mul"
+          onclick="display.value+='*'"
+          value="*"
+          style="
+            color: black;
+            background-color: white;
+
+            margin-left: 40px;
+            height: 50px;
+            width: 100px;
+
+            border: none;
+            font-size: 30px;
+            background-color: #00bfff;
+          "
+        />
+        <br />
+
+        <input
+          type="button"
+          id="add"
+          value="C"
+          onclick="display.value=' '"
+          style="
+            color: black;
+            background-color: white;
+
+            height: 50px;
+            width: 100px;
+            margin-top: 20px;
+            margin-left: 10px;
+            border: none;
+            font-size: 30px;
+            background-color: #00bfff;
+          "
+        />
+        <input
+          type="button"
+          id="result"
+          onclick="display.value=eval(display.value)"
+          value="="
+          style="
+            color: black;
+            background-color: white;
+
+            height: 50px;
+            width: 100px;
+            margin-top: 20px;
+            margin-left: 10px;
+            border: none;
+            font-size: 30px;
+            background-color: #00bfff;
+          "
+        />
+        <input
+          type="button"
+          id="div"
+          value="/"
+          onclick="display.value+='/'"
+          style="
+            color: black;
+            background-color: white;
+
+            margin-left: 15px;
+            height: 50px;
+            width: 100px;
+            margin-top: -90px;
+            border: none;
+            font-size: 30px;
+            background-color: #00bfff;
+          "
+        />
+      </div>
+    </div>
+  </body>
+</html>
